@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Te invito a mi cumple</title>
+    <script defer src="js/script.js"></script>
+    <link rel="icon" href="imagenes/sticker_luca_1.png" type="image/png">
+</head>
+<body>
+<!-- Audio oculto -->
+
+     <!-- Encabezado con el nombre del niño y la fecha -->
+     <header style="
+     background-image: url('imagenes/fondo_header.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     padding: 40px 20px;
+     color: white;
+     text-align: center;
+     position: relative;
+   ">
+     <!-- Imagen de frente -->
+     <img src="imagenes/Luca1.png" alt="Imagen de frente" style="
+       height: auto;
+       position: relative;
+       z-index: 2;
+       margin-bottom: 10px;
+     ">
+   </header>
+
+  <!-- Sección principal con la invitación -->
+  <main>
+    <div class="contador-container">
+        <img class="mickey-flotante" src="imagenes/mickey_cabeza.png" alt="Foto Mickey">
+        
+        <p><strong style= "color: #75491F; font-size: 24px;margin-top: 120px;">¡Te espero para festejar mi primer año!</strong></p>
+        
+        <p class="contador">
+          Faltan <span id="dias-restantes">00</span> días
+        </p>
+      
+        <div class="contador-reloj">
+          <div class="numeros-contador">
+            <span id="horas">00</span> :
+            <span id="minutos">00</span> :
+            <span id="segundos">00</span>
+          </div>
+          <div class="etiquetas-contador">
+            <span>Horas</span>
+            <span> Minutos</span>
+            <span>Segundos</span>
+          </div>
+        </div>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="54" viewBox="0 0 48 54" fill="none">
+        <path d="M42 5.37536H39.375V0H34.125V5.37536H13.125V0H7.875V5.37536H5.25C2.33625 5.37536 0.02625 7.79427 0.02625 10.7507L0 48.3783C0 51.3347 2.33625 53.7536 5.25 53.7536H42C44.8875 53.7536 47.25 51.3347 47.25 48.3783V10.7507C47.25 7.79427 44.8875 5.37536 42 5.37536ZM42 48.3783H5.25V21.5014H42V48.3783ZM15.75 32.2522H10.5V26.8768H15.75V32.2522ZM26.25 32.2522H21V26.8768H26.25V32.2522ZM36.75 32.2522H31.5V26.8768H36.75V32.2522ZM15.75 43.0029H10.5V37.6275H15.75V43.0029ZM26.25 43.0029H21V37.6275H26.25V43.0029ZM36.75 43.0029H31.5V37.6275H36.75V43.0029Z" fill="#75491F"/>
+        </svg>
+      <p><strong>¿Cuándo?</strong><br>Domingo <strong>1 de junio</strong> de <strong>12:30 a 15:30 hs</strong></p>
+      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Cumpleaños+de+Luca&dates=20250601T153000Z/20250601T183000Z&details=¡Te+espero+para+festejar+mi+primer+año!&location=Rivera+Indarte+477" target="_blank">AGENDAR</a>
+
+      <br><svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 62" fill="none">
+<path d="M48.5 26C38.2721 26 30 34.2945 30 44.55C30 58.4625 48.5 79 48.5 79C48.5 79 67 58.4625 67 44.55C67 34.2945 58.7279 26 48.5 26ZM48.5 51.175C44.8529 51.175 41.8929 48.207 41.8929 44.55C41.8929 40.893 44.8529 37.925 48.5 37.925C52.1471 37.925 55.1071 40.893 55.1071 44.55C55.1071 48.207 52.1471 51.175 48.5 51.175Z" fill="#75491F"/>
+</svg>
+      <p><strong>¿Dondé?</strong><br>Salón Rivera Eventos - <strong>Rivera Indarte 477</strong></p>
+      <a href="https://maps.app.goo.gl/rEsUPiFL3hWmiG6m6" target="_blank">CÓMO LLEGAR</a>
+    </section>
+
+    <!-- Galería de fotos -->
+    <section class="galeria">
+      <!-- Reemplaza las rutas de las imágenes con las tuyas -->
+      <img src="imagenes/foto1.jpg" alt="Foto 1">
+      <img src="imagenes/foto2.jpg" alt="Foto 2">
+      <!-- Agrega más imágenes según sea necesario -->
+    </section>
+
+
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="confirmacion">
+    <p><strong>Tu presencia es muy importante para mi, no olvides confirmar asistencia con mis papis.</strong></p>
+    <a href="https://wa.me/+5491158649706?text=¡Hola!%20Quiero%20confirmar%20asistencia%20al%20cumple%20de%20Luca%20" target="_blank">CONFIRMAR</a>
+    <img src="imagenes/fondo_footer.png" alt="Decoración" class="decoracion-footer">
+  </footer>
+  <audio id="musica" src="audio/Yo Quisiera Ya Ser El Rey.mp3" loop></audio>
+
+  <!-- Botón flotante -->
+  <button id="btn-musica" class="boton-musica" aria-label="Reproducir música">
+    🎵
+  </button>
+
+</body>
+</html>
