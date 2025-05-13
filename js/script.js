@@ -36,10 +36,11 @@ function actualizarContador() {
   let reproduciendo = false;
   
   // SVG del ícono musical
-  const iconoMusica = `
-  <svg xmlns="http://www.w3.org/2000/svg" width="100" height="35" viewBox="0,0,900,210">
-<g fill="#40502c" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(9.84615,9.84615)"><path d="M21.5625,0.17188l-11.10937,3.39844c-1.34766,0.38281 -2.4375,1.78516 -2.4375,3.13281v11.55859c0,0 0,0.15625 0,0.16016c0,0 -0.80469,-0.54297 -2.59766,-0.28906c-2.63281,0.375 -4.76953,2.39453 -4.76953,4.51563c0,2.12109 2.13672,3.41797 4.76953,3.04297c2.63672,-0.37109 4.56641,-2.32812 4.56641,-4.44922c0,0 0,-9.06641 0,-10.00781c0,-0.9375 1.12891,-1.34375 1.12891,-1.34375l9.82422,-3.07812c0,0 1.08594,-0.36328 1.08594,0.64063c0,1.00781 0,8.03125 0,8.03125c0,0 0,0.00391 0,0.00781c0,0 -1,-0.57812 -2.79297,-0.35937c-2.63281,0.32031 -4.76953,2.29687 -4.76953,4.41797c0,2.12109 2.13672,3.46094 4.76953,3.14063c2.63281,-0.31641 4.76953,-2.29687 4.76953,-4.41797v-16.36328c0,-1.34375 -1.09375,-2.125 -2.4375,-1.73828z"></path></g></g>
-</svg>`;
+const iconoMusica = `
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#40502c">
+  <path d="M13.41 2.16L7.53 4.01A2.38 2.38 0 0 0 6 6.28v7.83c-.77-.52-2.23-.26-3.1.56-1.13 1.05-1.13 2.62 0 3.67s2.72 1.12 3.85.07c.69-.64 1.09-1.49 1.09-2.38V9.5l8-2.5v5.47c-.77-.52-2.23-.26-3.1.56-1.13 1.05-1.13 2.62 0 3.67s2.72 1.12 3.85.07c.69-.64 1.09-1.49 1.09-2.38V4.06a1.5 1.5 0 0 0-1.87-1.9z"/>
+</svg>
+`;
   
   // Ícono de pausa simple (⏸️), también con color
   const iconoPause = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="17" viewBox="0 0 14 17" fill="none">
