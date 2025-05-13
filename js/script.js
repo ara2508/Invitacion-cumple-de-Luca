@@ -37,7 +37,7 @@ function actualizarContador() {
   
   // SVG del ícono musical
 const iconoMusica = `
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="24" height="24" fill="#40502c">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="28" height="28" fill="#40502c">
   <path d="M13.41 2.16L7.53 4.01A2.38 2.38 0 0 0 6 6.28v7.83c-.77-.52-2.23-.26-3.1.56-1.13 1.05-1.13 2.62 0 3.67s2.72 1.12 3.85.07c.69-.64 1.09-1.49 1.09-2.38V9.5l8-2.5v5.47c-.77-.52-2.23-.26-3.1.56-1.13 1.05-1.13 2.62 0 3.67s2.72 1.12 3.85.07c.69-.64 1.09-1.49 1.09-2.38V4.06a1.5 1.5 0 0 0-1.87-1.9z"/>
 </svg>
 `;
